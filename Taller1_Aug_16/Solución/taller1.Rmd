@@ -97,19 +97,19 @@ El modelo de regresión lineal es pues
 
 ```{=tex}
 \begin{equation*}
-  Y_i = \beta_0 + \beta_1X_i + \varepsilon_i
+  Y_i = \beta_0 + \beta_1X_i + \varepsilon_i, \ i=1,2,\ldots, n
 \end{equation*}
 ```
 
-Cuyo supuesto es
+Cuyos supuestos son
 
 ```{=tex}
 \begin{equation*}
-  \varepsilon_i \stackrel{\text{iid}}{\sim} \mathcal{N}(0, \sigma^2)
+  \varepsilon_i \stackrel{\text{iid}}{\sim} \mathcal{N}(0, \sigma^2), \forall i = 1, 2, \ldots, n
 \end{equation*}
 ```
 
-Y donde $1 \leq i \leq 80$. Ahora, ajustando el modelo y agregando a la gráfica de dispersión el ajuste:
+Y donde $1 \leq i \leq n= 80$. Ahora, ajustando el modelo y agregando a la gráfica de dispersión el ajuste:
 
 ```{r}
 mod <- lm(five_star_rating ~ total_ratings, data=datos.modelo)
@@ -137,9 +137,9 @@ mod.tabla %>%
 
 ```{=tex}
 \begin{itemize}
-  \item $\hat{\beta_0}$ no tiene interpretación y dado que su valor-P es mayor a un nivel de significancia $\alpha=0.05$, no es significativo, además tiene unidades de calificaciones de 5 estrellas
+  \item $\hat{\beta_0}$ no tiene interpretación ya que el valor x=0 no está en el rango experimental dado, y puesto que su valor-P es mayor a un nivel de significancia $\alpha=0.05$, no es significativo, además tiene unidades de calificaciones de 5 estrellas
   \item $\hat{\beta_1}$ es la tasa de cambio de la cantidad de calificaciones de 5 estrellas por la cantidad
-de calificaciones totales  y el parámetro tiene un valor-P mucho menor al nivel de significancia, por lo que es significativamente distinto de 0 e interpretable.
+de calificaciones totales y el parámetro tiene un valor-P mucho menor al nivel de significancia, por lo que es significativamente distinto de 0 e interpretable. Por lo tanto por caada calificación total se espera que la cantidad promedio de calificaciones de 5 estrellas aumente en 0.6885 unidades.
 \end{itemize}
 ```
 
@@ -151,7 +151,8 @@ Se espera que el 0 esté contenido en el intervalo de confianza del intercepto y
 #función confint permite hallar los intervalos de confianza
 inter.beta0 <- confint(mod, "(Intercept)", level = 0.95)
 inter.beta1 <- confint(mod, "total_ratings", level = 0.95)
-
+```
+```{r echo=F}
 #para crear la tabla:
 inter.conf <- data.frame(c(inter.beta0[1], inter.beta1[1]), c(inter.beta0[2], inter.beta1[2]), row.names = c("$\\beta_{0}$", "$\\beta_{1}$"))
 inter.conf %>% 
@@ -161,7 +162,6 @@ inter.conf %>%
   kable_styling(latex_options = c("hold_position")) %>% 
   column_spec(2:3, latex_valign = "m") %>%
   row_spec(0:5, align = "c")
-sum()
 ```
 
 
