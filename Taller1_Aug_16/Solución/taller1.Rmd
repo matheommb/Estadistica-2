@@ -1,6 +1,6 @@
 ---
 header-includes:
-- \usepackage{float, amsmath}
+- \usepackage{float}
 - \usepackage[utf8]{inputenc}
 - \usepackage[spanish, es-tabla]{babel}\decimalpoint
 output:
@@ -13,16 +13,16 @@ language: "es"
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE, comment = NA, fig.pos="H")
+knitr::opts_chunk$set(echo = TRUE, comment = NA)
 library(knitr)
 library(kableExtra)
 library(tidyverse)
 # if(!require(HH)) install.packages("HH"); library(HH)
 ```
 
-**Estadística II - Taller 01$\hspace{1.6cm}$Semestre: 2022-02**
+**Estadística II - Taller 01$\hspace{1.6cm}$Semestre: 2023-01**
 
-**Profesores: Carlos Mario Lopera, Julieth Veronica Guarin, Raul Alberto Perez**
+**Profesores: Francisco Javier Rodríguez Cortés, Julieth Verónica Guarín Escudero**
 
 **Monitor: Matheo Muñoz Betancur**
 
