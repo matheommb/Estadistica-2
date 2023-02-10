@@ -145,7 +145,13 @@ de calificaciones totales y el parámetro tiene un valor-P mucho menor al nivel 
 
 \subsection*{Ejercicio 6}
 
-Se espera que el 0 esté contenido en el intervalo de confianza del intercepto y  que no lo esté en la pendiente, pues si lo contiene el parámetro no es significativo. Así pues:
+Se espera que el 0 esté contenido en el intervalo de confianza del intercepto y  que no lo esté en la pendiente, pues si lo contiene el parámetro no es significativo. Así pues, se plantean los intervalos de confianza de la siguiente forma:
+
+```{=tex}
+\begin{equation*}
+\beta_i \pm t_{\frac{\alpha}{2}, n-1}* \text{se}(\beta_i)
+\end{equation*}
+```
 
 ```{r}
 #función confint permite hallar los intervalos de confianza
