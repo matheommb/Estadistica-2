@@ -66,7 +66,7 @@ Primero, se realiza la lectura de la base de datos con
 datos <- read.csv("Ecommerce_Customers.csv")
 ```
 
-Para seleccionar las variables numéricas, se observa primero la estructura de la variable datos, así
+Para seleccionar las variables numéricas, se observa primero la estructura de la variable datos, así:
 
 ```{r}
 str(datos)
@@ -78,7 +78,7 @@ datos.filtrados <- datos %>%
   select(Avg..Session.Length:Length.of.Membership, Yearly.Amount.Spent)
 ```
 
-Note que la variable "Yearly.Amount.Spent" será la variable respuesta $Y$.
+Note que la variable *Yearly.Amount.Spent* será la variable respuesta $Y$.
 
 \subsubsection*{Ejercicio 2}
 
@@ -111,8 +111,6 @@ Considerando la duración de la membresía como la covariable $X$ y la cantidad 
 \end{equation*}
 
 Donde $1 \leq i \leq n$ con $n=400$. Seleccionando aleatoriamente 400 datos de la variable datos.modelo y ajustando el modelo de regresión:
-
-
 
 ```{r}
 n <- 500 #Para recuperar el valor total de n
