@@ -17,6 +17,9 @@ En este repositorio encontrarás los talleres del curso que serán dictados a lo
 
 -Y este lo pueden tomar como el [libro guía del curso en R](https://fhernanb.github.io/libro_regresion/) escrito por el mismo profesor. :star:
 
+-[Link drive](https://drive.google.com/drive/folders/1PEZPU11apww2Hh52lmKklUcHCxLMqGLJ?usp=share_link) con grabación del primer taller.
+
 Adicional a esto instalen el paquete *tidyverse* en su R, en el taller no.1 podrán ver cómo lo hacen.
+
 
 ![ratoncito](meme.jpg)
