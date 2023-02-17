@@ -8,6 +8,18 @@ En este repositorio encontrarás los talleres del curso que serán dictados a lo
 
 En los talleres se aclarará absolutamente todo lo necesario para los temas para el parcial además de que se les dará un taller de repaso resolviendo parciales pasados, en caso que se continúe presencial les dejaré las grabaciones del semestre pasado. También se les dará asesoría con el primer trabajo ya que es el más exigente de los 2 y en asesoría podrán resolver cualquier duda que tengan del curso puntual o general del tipo: "No entendí la primera semna de clases, ¿podrías explicarme?". En un caso así también se dejará grabación para revisión de los demás.
 
+Horario talleres presenciales:
+
+Lunes 4-6pm 12-103 **volador**
+
+Miércoles 12-2pm M8-102 **Minas**
+
+Horario asesorías virtuales:
+
+Martes 7-9pm 
+
+El taller de los miércoles es la repetición del lunes, por lo que no hace falta asistir a ambos, además se tomará asistencia :P
+
 ## Links :exclamation:
 
 -[Aquí](https://cran.r-project.org/bin/windows/base/old/) podrán descargar cualquier versión de R que deseen, sin embargo **no lo más nuevo es mejor**, en lo personal usaré la versión 4.1.2 puesto que es la más estable con todos los paquetes necesarios para el curso, si en algún punto les salen errores de compatibilidad es probable que sea por usar la versión más reciente con paquetes que aún no han sido actualizados así que versón 4.1.2 es ir a la segura. :ok_hand:
@@ -24,17 +36,7 @@ En los talleres se aclarará absolutamente todo lo necesario para los temas para
 
 Adicional a esto instalen el paquete *tidyverse* en su R, en el taller no.1 podrán ver cómo lo hacen.
 
-Horario talleres presenciales:
 
-Lunes 4-6pm 12-103 **volador**
-
-Miércoles 12-2pm M8-102 **Minas**
-
-Horario asesorías virtuales:
-
-Martes 7-9pm 
-
-El taller de los miércoles es la repetición del lunes, por lo que no hace falta asistir a ambos, además se tomará asistencia :P
 
 
 
