@@ -27,6 +27,7 @@ Adicional a esto instalen el paquete *tidyverse* en su R, en el taller no.1 podr
 Horario talleres presenciales:
 
 Lunes 4-6pm 12-103 **volador**
+
 Miércoles 12-2pm M8-102 **Minas**
 
 Horario asesorías virtuales:
