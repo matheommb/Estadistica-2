@@ -16,7 +16,7 @@ Miércoles 12-2pm M8-102 **Minas**
 
 Horario asesorías virtuales:
 
-Martes 7-9pm 
+Lunes 7-9pm 
 
 El taller de los miércoles es la repetición del lunes, por lo que no hace falta asistir a ambos, además se tomará asistencia :P
 
