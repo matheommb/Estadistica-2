@@ -43,4 +43,5 @@ El taller de los miércoles es la repetición del lunes, por lo que no hace falt
 
 Adicional a esto instalen el paquete *tidyverse* en su R, en el taller no.1 podrán ver cómo lo hacen.
 
+
 ![valp](meme2.jpg)
