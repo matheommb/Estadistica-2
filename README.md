@@ -24,9 +24,9 @@ El taller de los miércoles es la repetición del lunes, por lo que no hace falt
 
 ## Links :exclamation:
 
--[Link meet]() talleres virtuales. :art:
+-[Link meet](https://meet.google.com/ijk-fwko-hyc?authuser=0&hs=122&ijlm=1677603453162) taller virtual. :art:
 
--[Link meet]() asesorías virtuales. :package:
+-[Link meet](https://meet.google.com/oci-bvqj-uwk?authuser=0&hs=122&ijlm=1677603073606) asesoría virtual. :package:
 
 -[Aquí](https://cran.r-project.org/bin/windows/base/old/) podrán descargar cualquier versión de R que deseen, sin embargo **no lo más nuevo es mejor**, en lo personal usaré la versión 4.1.2 puesto que es la más estable con todos los paquetes necesarios para el curso, si en algún punto les salen errores de compatibilidad es probable que sea por usar la versión más reciente con paquetes que aún no han sido actualizados así que versón 4.1.2 es ir a la segura. :ok_hand:
 
