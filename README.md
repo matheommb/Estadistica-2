@@ -10,7 +10,7 @@ En los talleres se aclarará absolutamente todo lo necesario para los temas para
 
 Horario taller presencial:
 
-Lunes 4-6pm 12-103 **volador**
+Lunes 4-6pm 12-104 **volador**
 
 Horario taller virtual:
 
