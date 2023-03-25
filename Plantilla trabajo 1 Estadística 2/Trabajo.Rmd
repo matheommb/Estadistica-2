@@ -146,7 +146,7 @@ Se construye el estadístico de prueba como:
 
 \begin{equation}
 \begin{split}
-F_0 &= \frac{(SSE(\beta_0, \beta_3, \beta_5) - SSE(\beta_0, \ \cdots, \ \beta_5))/3}{MSE(\beta_0, \ \cdots, \ \beta_5)} \stackrel{H_0}{\sim} F_{3, `r nrow(datos)-6`}\\
+F_0 &= \frac{(SSE(\beta_0, \beta_3, \beta_5) - SSE(\beta_0, \ \cdots, \ \beta_5))/3}{MSE(\beta_0, \ \cdots, \ \beta_5)} \stackrel{H_0}{\sim} f_{3, `r nrow(datos)-6`}\\
 &= \frac{}{} \\
 &= 
 \end{split}
