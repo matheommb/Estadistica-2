@@ -1,4 +1,9 @@
 # Ejercicio 1
+from scipy.stats import t
+import numpy as np
+from scipy.stats import linregress
+import seaborn as sns
+import matplotlib.pyplot as plt
 import pandas as pd
 
 datos = pd.read_csv("android-games.csv")
@@ -7,13 +12,10 @@ print(datos.columns)
 # Como se que valores hay en category?
 print(datos['category'].unique())
 # Filtrando la base de datos
-datos_modelo = datos[(datos['total_ratings'] < 4121627) & 
+datos_modelo = datos[(datos['total_ratings'] < 4121627) &
                      (datos['category'] == "GAME ACTION")][['total_ratings', 'five_star_rating']]
 
 # Ejercicio 2
-import matplotlib.pyplot as plt
-import seaborn as sns
-from scipy.stats import linregress
 
 # Forma 1
 plt.scatter(datos_modelo['total_ratings'], datos_modelo['five_star_rating'])
@@ -30,11 +32,10 @@ plt.title('5 estrellas vs Calificaciones')
 plt.show()
 
 # Ejercicio 3
-import numpy as np
 
 # Definiendo x e y
-x = datos_modelo['total_ratings'] # covariable
-y = datos_modelo['five_star_rating'] # respuesta
+x = datos_modelo['total_ratings']  # covariable
+y = datos_modelo['five_star_rating']  # respuesta
 
 # Ajuste del modelo
 slope, intercept, r_value, p_value, std_err = linregress(x, y)
@@ -63,7 +64,6 @@ plt.show()
 # Unidades de 5 estrellas por unidad de calificaciones.
 
 # Ejercicio 6
-from scipy.stats import t
 
 alpha = 0.05
 n = len(x)
@@ -77,5 +77,6 @@ CI_slope = (slope - t_value*se_slope, slope + t_value*se_slope)
 print("Intervalo de confianza para la pendiente: ", CI_slope)
 
 # Intervalo de confianza para el intercepto
-CI_intercept = (intercept - t_value*se_intercept, intercept + t_value*se_intercept)
+CI_intercept = (intercept - t_value*se_intercept,
+                intercept + t_value*se_intercept)
 print("Intervalo de confianza para el intercepto: ", CI_intercept)
