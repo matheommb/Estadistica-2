@@ -8,7 +8,7 @@ for dir in Taller*; do
     new_dir=$(echo "$dir" | cut -d'_' -f1)
     # rename the directory
     mv "$dir" "$new_dir"
-    echo "Nombre cambiado"
+    echo "Directory name changed"
   fi
 done
 
