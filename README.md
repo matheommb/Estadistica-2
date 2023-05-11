@@ -28,7 +28,7 @@ El taller de los miércoles es la repetición del lunes, por lo que no hace falt
 
 -[Link meet](https://meet.google.com/oci-bvqj-uwk?authuser=0&hs=122&ijlm=1677603073606) asesoría virtual. :package:
 
--[Aquí](https://cran.r-project.org/bin/windows/base/old/) podrán descargar cualquier versión de R que deseen, sin embargo **no lo más nuevo es mejor**, en lo personal usaré la versión 4.1.2 puesto que es la más estable con todos los paquetes necesarios para el curso, si en algún punto les salen errores de compatibilidad es probable que sea por usar la versión más reciente con paquetes que aún no han sido actualizados así que versón 4.1.2 es ir a la segura. :ok_hand:
+-[Aquí](https://cran.r-project.org/bin/windows/base/old/) podrán descargar cualquier versión de R que deseen, sin embargo **no lo más nuevo es mejor**, en lo personal usaré la versión 4.2.3 puesto que es la más estable con todos los paquetes necesarios para el curso (particularmente tidyverse), si en algún punto les salen errores de compatibilidad es probable que sea por usar la versión más reciente (4.3.0) con paquetes que aún no han sido actualizados así que versón 4.2.3 hacia abajo es ir a la segura. :ok_hand:
 
 -Además de usar R, que es el lenguaje de programación, usaremos el entorno de edición de código [RStudio](https://posit.co/download/rstudio-desktop/) que facilitará muchas cosas a la hora de programar. :kissing:
 
