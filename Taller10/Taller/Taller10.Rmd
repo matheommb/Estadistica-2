@@ -78,7 +78,7 @@ b) Afijación proporcional.
 6. Suponga que se tiene una población dividida en cuatro estratos, con afijaciones
 $\psi_1 = 0.3$, $\psi_2 = 0.2$, $\psi_3 = 0.25$ y costos unitarios de muestreo por estrato $C_1 = 10$USD, $C_2 = 25$USD, $C_3 = 50$USD y $C_4 = 5$USD. Estime el tamaño de muestra sabiendo que el presupuesto total del que se dispone para hacer el muestreo es de 1500USD
 
-4. El jefe de personal de una empresa desea estimar para un año el número total de días utilizados de permiso de enfermedad entre las 46 plantas de la empresa. Las 46 plantas se dividen en 20 plantas pequeñas y 26 plantas grandes. Por experiencia se sabe que el jefe cree que las plantas pequeñas pueden utilizar entre 0 y 100 días de permiso de enfermedad, mientras que las plantas grandes pueden utilizar entre 10 y 200 días de permiso por enfermedad. Si desea estimar con un error no mayor a 3 días.
+4. El jefe de personal de una empresa desea estimar para un año el número promedio de días utilizados de permiso de enfermedad entre las 46 plantas de la empresa. Las 46 plantas se dividen en 20 plantas pequeñas y 26 plantas grandes. Por experiencia se sabe que el jefe cree que las plantas pequeñas pueden utilizar entre 0 y 100 días de permiso de enfermedad, mientras que las plantas grandes pueden utilizar entre 10 y 200 días de permiso por enfermedad. Si desea estimar con un error no mayor a 3 días.
 
 a) Encuentre la afijación apropiada de la muestra para los estratos.
 b) Determine el tamaño de muestra adecuado.
