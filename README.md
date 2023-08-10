@@ -10,12 +10,13 @@ En los talleres se aclarará absolutamente todo lo necesario para los temas para
 
 Horario talleres virtuales:
 
-Lunes 4pm a 6pm
-Miércoles 6pm a 8pm
+Lunes 4pm-6pm
+
+Miércoles 6pm-8pm
 
 Horario asesorías virtuales:
 
-Lunes 6pm a 8pm
+Lunes 6pm-8pm
 
 ## Links :exclamation:
 
