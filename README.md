@@ -20,9 +20,9 @@ Lunes 6pm-8pm
 
 ## Links :exclamation:
 
--[Link meet](meet.google.com/put-fyxe-bht) taller virtual. :art:
+-[Link meet](https://meet.google.com/put-fyxe-bht) taller virtual. :art:
 
--[Link meet](meet.google.com/crc-dshe-omj) asesoría virtual. :package:
+-[Link meet](https://meet.google.com/crc-dshe-omj) asesoría virtual. :package:
 
 -[Aquí](https://cran.r-project.org/bin/windows/base/old/) podrán descargar cualquier versión de R que deseen, sin embargo **no lo más nuevo es mejor**, en lo personal usaré la versión 4.2.3 puesto que es la más estable con todos los paquetes necesarios para el curso (particularmente tidyverse, se dará cuenta de esto si utiliza conda), si en algún punto les salen errores de compatibilidad es probable que sea por usar la versión más reciente (4.3.1) con paquetes que aún no han sido actualizados así que versón 4.2.3 hacia abajo es ir a la segura. :ok_hand:
 
