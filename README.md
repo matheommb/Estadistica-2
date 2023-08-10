@@ -8,18 +8,20 @@ En este repositorio encontrarás los talleres del curso que serán dictados a lo
 
 En los talleres se aclarará absolutamente todo lo necesario para los temas para el parcial además de que se les dará un taller de repaso para cada parcial cuya grabación dependerá de la asistencia y estará disponible hasta el día antes del exámen a media noche :3. También se les dará asesoría con el primer trabajo ya que es el más exigente de los 2 y en asesoría podrán resolver cualquier duda que tengan del curso puntual o general del tipo: "No entendí la primera semana de clases, ¿podrías explicarme?". En un caso así también se dejará grabación para revisión de los demás.
 
-Horario taller presencial:
+Horario talleres virtuales:
 
-Horario taller virtual:
+Lunes 4pm a 6pm
+Miércoles 6pm a 8pm
 
 Horario asesorías virtuales:
 
+Lunes 6pm a 8pm
 
 ## Links :exclamation:
 
--[Link meet]() taller virtual. :art:
+-[Link meet](meet.google.com/put-fyxe-bht) taller virtual. :art:
 
--[Link meet]() asesoría virtual. :package:
+-[Link meet](meet.google.com/crc-dshe-omj) asesoría virtual. :package:
 
 -[Aquí](https://cran.r-project.org/bin/windows/base/old/) podrán descargar cualquier versión de R que deseen, sin embargo **no lo más nuevo es mejor**, en lo personal usaré la versión 4.2.3 puesto que es la más estable con todos los paquetes necesarios para el curso (particularmente tidyverse, se dará cuenta de esto si utiliza conda), si en algún punto les salen errores de compatibilidad es probable que sea por usar la versión más reciente (4.3.1) con paquetes que aún no han sido actualizados así que versón 4.2.3 hacia abajo es ir a la segura. :ok_hand:
 
