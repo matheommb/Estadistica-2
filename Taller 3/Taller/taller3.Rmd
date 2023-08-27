@@ -1,0 +1,94 @@
+---
+header-includes:
+- \usepackage{float}
+- \usepackage[utf8]{inputenc}
+- \usepackage[spanish, es-tabla]{babel}\decimalpoint
+output:
+  pdf_document: default
+  html_document: default
+fontsize: 12pt
+papersize: letter
+geometry: margin = 1in
+language: "es"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, comment = NA)
+library(knitr)
+library(kableExtra)
+library(tidyverse)
+```
+
+
+**Estadística II - Taller 03$\hspace{1.6cm}$Semestre: 2023-02**
+
+**Monitor: Matheo Muñoz Betancur**
+
+$\rule{6.5in}{1pt}$
+
+Este taller se divide en dos secciones, en la primera se trabajará lo relacionado
+a la validación del modelo. Posterior a esto, se considera un ejercicio en el que
+se realiza la prueba de falta de ajuste a un modelo.
+
+En primer lugar considere el siguiente conjunto de datos.
+
+```{r chunck, echo=F}
+gen_dat <- function(n, seed = 7){
+  varianza <- 16
+  set.seed(seed)
+  x <- rep(runif(n=floor(n/2)+1, min=-5, max=6),2)[sample(2*floor(n/2)+2,n)]
+  media <- 4 - 6 * x + 2 * x^2
+  set.seed(seed^2)
+  y <- rnorm(n=n, mean=media, sd=sqrt(varianza))
+  marco_datos <- data.frame(y=y, x=x)
+  return(marco_datos)
+}
+
+datos <- gen_dat(75)
+
+datos[1:5, ] %>% 
+  kable(booktab = T, caption = "Presentación de los datos",
+        longtable = T, align = "c") %>%
+  kable_styling(latex_options = "HOLD_position")
+```
+
+El día de hoy, la misión será realizar los siguientes ejercicios, claro está,
+haciendo uso de **R**.
+
+
+1. Genere la base de datos que se muestra previamente usando el siguiente código.
+
+```{r gendatos, eval=F}
+gen_dat <- function(n, seed = 7){
+  varianza <- 16
+  set.seed(seed)
+  x <- rep(runif(n=floor(n/2)+1, min=-5, max=6),2)[sample(2*floor(n/2)+2,n)]
+  media <- 4 - 6 * x + 2 * x^2
+  set.seed(seed^2)
+  y <- rnorm(n=n, mean=media, sd=sqrt(varianza))
+  marco_datos <- data.frame(y=y, x=x)
+  return(marco_datos)
+}
+
+datos <- gen_dat(75)
+```
+
+
+2. Ajuste el modelo de regresión lineal simple
+$$Y_i = \beta_0 + \beta_1 X_i + \varepsilon_i, \ \varepsilon_i \overset{iid}{\sim} N(0, \sigma^2); \ 1 \leq i \leq 75$$
+3. Determine qué parámetros son significativos y cuáles no en el modelo, hágalo de manera rápida aprovechando alguna de las funciones de `R` usadas hasta el momento. \textbf{Nota:} Asuma que se cumple el supuesto de independencia de los residuales. 
+4. Extraiga los residuales del modelo y verifique que estos tengan media igual a 0.
+5. Determine si los residuales tienen varianza constante, argumente por qué esto
+es o no es así, además, si nota algún patrón o algo que considere anormal, coméntelo.
+6. Evalúe el supuesto de normalidad de los residuales, hágalo usando un gráfico cuantil - cuantil y finalmente una prueba de hipótesis.
+7. Realice la prueba de falta de ajuste para los datos
+del modelo $$Y_i = \beta_0 + \beta_1 Xi + \varepsilon_i, \ \varepsilon_i \overset{iid}{\sim} N(0, \sigma^2); \ 1 \leq i \leq 75$$
+para ello use la función `rsm` del paquete `rsm`.
+
+8. Con la base de datos del archivo decaimiento.xlsx, haga un análisis
+de si se puede ajustar un modelo, bien sea lineal o intrínsecamente lineal,
+escriba el modelo y cúales son sus supuestos, reporte los coeficientes
+estimados e interprételos.
+
+
+\textbf{Nota:} se propone como ejercicio realizar la validación del modelo

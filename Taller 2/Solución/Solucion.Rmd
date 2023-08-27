@@ -20,9 +20,7 @@ library(tidyverse)
 # if(!require(HH)) install.packages("HH"); library(HH)
 ```
 
-**Estadística II - Taller 02$\hspace{1.6cm}$Semestre: 2023-01**
-
-**Profesores: Francisco Javier Rodríguez Cortés, Julieth Verónica Guarín Escudero**
+**Estadística II - Taller 02$\hspace{1.6cm}$Semestre: 2023-02**
 
 **Monitor: Matheo Muñoz Betancur**
 
