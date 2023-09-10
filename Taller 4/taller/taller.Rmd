@@ -1,0 +1,61 @@
+---
+header-includes:
+- \usepackage{float}
+- \usepackage[utf8]{inputenc}
+- \usepackage[spanish, es-tabla]{babel}\decimalpoint
+output:
+  pdf_document: default
+  html_document: default
+fontsize: 12pt
+papersize: letter
+geometry: margin = 1in
+language: "es"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, comment = NA)
+library(knitr)
+library(kableExtra)
+library(tidyverse)
+```
+
+
+**Estadística II - Taller 04$\hspace{1.6cm}$Semestre: 2023-02**
+
+**Monitor: Matheo Muñoz Betancur**
+
+$\rule{6.5in}{1pt}$
+
+
+1. Un ingeniero realizó un experimento para determinar el rendimiento total  del aceite por lote de cacahuate, para ello tuvo en cuenta variables como la presión, temperatura del CO2 aplicado, la humedad y el tamaño de partícula de los cacahuates. Los 16 datos recolectados aparecen a continuación
+
+\includegraphics{tabla.png}
+
+```{r, message=FALSE, eval=FALSE, echo=FALSE}
+library(MPV)
+datos <- table.b7 
+
+datos %>%
+  select(y, everything()) %>%
+  select(-x4) %>%
+  kable(booktab = T, 
+        caption= "Datos de estudio sobre el rendimiento total de aceite por lote de cacahuate.",
+        col.names = c("Rendimiento $[y]$", "Presión $[X_1]$",
+                      "Temperatura $[X_2]$", "Humedad $[X_3]$",
+                      "Tamaño de partícula $[X_5]$"),
+        align = rep("c", 5), escape = F) %>%
+  kable_styling(latex_options = "hold_position")
+```
+
+a) Calcule la matriz de varianzas-covarianzas. 
+b) Calcule la matriz de correlaciones. 
+c) Escriba un modelo con las covariables en forma escalar. 
+d) Añada una columna de unos al principio de los datos (excluyendo la covariable), de ahora en adelante dicha matriz será nombrada $\mathbf{X}$.
+e) Calcule las matrices $\mathbf{X}^T\mathbf{X}$, $(\mathbf{X}^T\mathbf{X})^{-1}$,
+$(\mathbf{X}^T\mathbf{X})^{-1}(\mathbf{X}^T\underline{y})$,
+$\mathbf{X}(\mathbf{X}^T\mathbf{X})^{-1}(\mathbf{X}^T\underline{y})$ y 
+$\underline{y} - \mathbf{X}(\mathbf{X}^T\mathbf{X})^{-1}(\mathbf{X}^T\underline{y})$.
+f) Ajuste el modelo usando la función `lm` y compare los resultados obtenidos con lo obtenido en el punto anterior.
+g) Dé interpretación a los parámetros y si son o no significativos a un nivel de significancia $\alpha = 0.05$
+
+\textbf{Nota:} la base de datos se encuentra como `table.b7` en el paquete `MPV`
