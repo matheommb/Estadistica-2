@@ -1,5 +1,5 @@
 library('tidyverse')
-datos <- read.table("./Bases/Equipo01.txt", header = T)
+datos <- read.table("./Bases/EquipoXX.txt", header = T)
 datos <- datos[, c(2, 5, 1)] %>% 
   mutate(W = if_else(Y <= 4.1, 1, if_else(Y > 4.8, 3, 2)))
 
