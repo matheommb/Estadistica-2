@@ -9,7 +9,7 @@ En este repositorio encontrarás los talleres del curso que dicté a lo largo de
 
 -[Link meet](https://meet.google.com/crc-dshe-omj) asesoría virtual. :package:
 
--[Aquí](https://cran.r-project.org/bin/windows/base/old/) podrán descargar cualquier versión de R que deseen, sin embargo **no lo más nuevo es mejor**, en lo personal usaré la versión 4.2.3 puesto que es la más estable con todos los paquetes necesarios para el curso (particularmente tidyverse, se dará cuenta de esto si utiliza conda), si en algún punto les salen errores de compatibilidad es probable que sea por usar la versión más reciente (4.3.1) con paquetes que aún no han sido actualizados así que versón 4.2.3 hacia abajo es ir a la segura. :ok_hand:
+-[Aquí](https://cran.r-project.org/bin/windows/base/old/) podrán descargar cualquier versión de R que deseen, sin embargo **no lo más nuevo es mejor**, en lo personal usé la versión 4.3.1 en el 2023-2 puesto que era la más estable con todos los paquetes necesarios para el curso (particularmente tidyverse, se dará cuenta de que esto es más fácil si utiliza conda), si en algún punto les salen errores de compatibilidad es probable que sea por usar la versión más reciente con paquetes que aún no han sido actualizados. :ok_hand:
 
 -Además de usar R, que es el lenguaje de programación, usaremos el entorno de edición de código [RStudio](https://posit.co/download/rstudio-desktop/) que facilitará muchas cosas a la hora de programar. :kissing:
 
