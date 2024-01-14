@@ -1,21 +1,7 @@
 # Estadistica II
 
-En este repositorio encontrarás los talleres del curso que serán dictados a lo largo del semestre 2023-2 en las monitorías. Aquí les estaré dejando también distintos links de interés, algunos de ellos es para aquellos que les vaya llamando la atención aprender más sobre la estadística y  modelos de regresión. Esto es pues la variedad de carreras que cogen el curso es alta y algunos lo hacen con el propósito de tener bases en su camino de aprendizaje de machine learning, también a algunos les gusta más la programación que a otros, por lo que las herramientas necesarias para aplicar lo que aprenden en el curso en su ordenador se las daré a lo largo del semestre. :boom:
+En este repositorio encontrarás los talleres del curso que dicté a lo largo del semestre 2023-2 en las monitorías, además de mis grabaciones de los mismos para los semestres 2023-1 junto con los repasos. Aquí les dejé también distintos links de interés, algunos de ellos es para aquellos que les vaya llamando la atención aprender más sobre la estadística y  modelos de regresión. Esto es pues la variedad de carreras que cogen el curso es alta y algunos lo hacen con el propósito de tener bases en su camino de aprendizaje de machine learning, también a algunos les gusta más la programación que a otros, por lo que las herramientas necesarias para aplicar lo que aprenden en el curso en su ordenador se las doy en el presente repositorio. :boom:
 
-
-## Importante
-
-En los talleres se aclarará absolutamente todo lo necesario para los temas para el parcial además de que se les dará un taller de repaso para cada parcial cuya grabación dependerá de la asistencia y estará disponible hasta el día antes del exámen a media noche :3. También se les dará asesoría con el primer trabajo ya que es el más exigente de los 2 y en asesoría podrán resolver cualquier duda que tengan del curso puntual o general del tipo: "No entendí la primera semana de clases, ¿podrías explicarme?". En un caso así también se dejará grabación para revisión de los demás.
-
-Horario talleres virtuales:
-
-Lunes 4pm-6pm
-
-Miércoles 6pm-8pm
-
-Horario asesorías virtuales:
-
-Lunes 6pm-8pm
 
 ## Links :exclamation:
 
